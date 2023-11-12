@@ -2,7 +2,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://api.themoviedb.org/3';
 axios.defaults.headers.common['Authorization'] =
-  'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxYmM2ZjczYjYwMjNmZDgwNTE5OGIxYjAzY2Y4Nzk2NiIsInN1YiI6IjY1NGEwMmFlNDM0OTRmMDEzYjdkODc0MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.OTSXXciARGXVeasch7NKN5PgH0WW_XmhM6KqPoO9rcM';
+  'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkMjE5MjMzNTAxZGIzMzJkYzJmMzkyZTgzOGNkNGZmOSIsInN1YiI6IjY1NGEwMmFlNDM0OTRmMDEzYjdkODc0MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ._3qliPvEcKUAHnkE-rnoynj0SIG5oxbGc4FKfNPE-VU';
 
 export const fetchTrendingMovies = async () => {
   const response = await axios.get('/trending/movie/day');
@@ -31,6 +31,6 @@ export const fetchCastMovie = async id => {
 };
 
 export const fetchReviewsMovie = async id => {
-  const response = await axios.get(`/movie/${id}/credits`);
+  const response = await axios.get(`/movie/${id}/reviews`);
   return response.data;
 };

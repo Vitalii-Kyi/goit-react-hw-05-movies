@@ -20,7 +20,7 @@ export const List = styled.ul`
 export const StyledLink = styled(NavLink)`
   border: 1px solid #000000;
   border-radius: 12px;
-  width: 100%
+  width: 100%;
   font-size: 16px;
   font-weight: 500;
   text-align: center;

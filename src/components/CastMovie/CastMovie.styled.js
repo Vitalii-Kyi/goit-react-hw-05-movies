@@ -4,7 +4,7 @@ export const List = styled.ul`
   margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 15px;
 `;
 
 export const Actor = styled.li`
@@ -12,6 +12,6 @@ export const Actor = styled.li`
 `;
 
 export const NameActor = styled.p`
-margin-top: 6px;
-font weight: bold;
+  margin-top: 6px;
+  font-weight: bold;
 `;

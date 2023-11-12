@@ -1,6 +1,6 @@
-import { TitleContainer, Title } from './TitleTrend.styled';
+import { TitleContainer, Title } from './TitleHome.styled';
 
-export const TitleTrend = () => {
+export const TitleHome = () => {
   return (
     <TitleContainer>
       <Title>Trending today</Title>

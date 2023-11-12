@@ -10,7 +10,7 @@ export const AdditionalInfo = () => {
           <StyledLink to={`cast`}>Cast</StyledLink>
         </li>
         <li>
-          <StyledLink to={`reviews`}></StyledLink>
+          <StyledLink to={`reviews`}>Reviews</StyledLink>
         </li>
       </List>
       <Outlet />

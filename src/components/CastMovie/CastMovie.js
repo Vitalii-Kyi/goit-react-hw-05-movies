@@ -32,7 +32,7 @@ const CastMovie = () => {
           height="80"
           width="80"
           radius="9"
-          color="tomato"
+          color="orange"
           ariaLabel="three-dots-loading"
           wrapperStyle={{}}
           wrapperClassName=""
@@ -51,10 +51,8 @@ const CastMovie = () => {
                 />
               ) : (
                 <img
-                  src={
-                    'https://ireland.apollo.olxcdn.com/v1/files/0iq0gb9ppip8-UA/image;s=1000x700'
-                  }
-                  alt="no foto"
+                  src={'https://via.placeholder.com/194x291'}
+                  alt="actor foto"
                   loading="lazy"
                 />
               )}

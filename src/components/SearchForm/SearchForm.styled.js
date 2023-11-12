@@ -5,6 +5,7 @@ export const FormContainer = styled.div`
   margin: 0 auto;
   padding: 10px;
 `;
+
 export const BtnSubmit = styled.button`
   cursor: pointer;
 `;

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 1050px;
-margin: 0 auto;
-padding 0 12px;
+  width: 1050px;
+  margin: 0 auto;
+  padding: 0 10px;
 `;
 
 export const NameMovie = styled.h1`
@@ -12,7 +12,7 @@ export const NameMovie = styled.h1`
 
 export const CardContainer = styled.div`
   display: flex;
-  gap: 24px;
+  gap: 20px;
 `;
 
 export const Subtitle = styled.span`
@@ -22,15 +22,15 @@ export const Subtitle = styled.span`
 export const MovieInfo = styled.ul`
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 `;
 
 export const Genres = styled.ul`
   display: flex;
-  gap: 6px;
+  gap: 5px;
 `;
 
 export const GenresList = styled.div`
   display: flex;
-  gap: 6px;
+  gap: 7px;
 `;

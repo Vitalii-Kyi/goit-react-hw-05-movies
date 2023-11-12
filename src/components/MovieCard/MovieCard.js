@@ -6,7 +6,7 @@ import {
   MovieInfo,
   NameMovie,
   Subtitle,
-} from './MovieCard.styled.js';
+} from './MovieCard.styled';
 
 export const MovieCard = ({ movie }) => {
   const index = movie.release_date.indexOf('-');
