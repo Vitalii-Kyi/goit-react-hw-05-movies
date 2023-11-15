@@ -8,4 +8,9 @@ export const FormContainer = styled.div`
 
 export const BtnSubmit = styled.button`
   cursor: pointer;
+  margin-left: 6px;
+
+  &:hover,
+  :focus {
+    background-color: #d5ead8;
 `;

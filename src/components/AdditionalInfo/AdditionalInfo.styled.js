@@ -18,18 +18,21 @@ export const List = styled.ul`
 `;
 
 export const StyledLink = styled(NavLink)`
-  border: 1px solid #000000;
-  border-radius: 12px;
+  border: 1px solid gray;
+  border-radius: 8px;
   width: 100%;
+  color: gray;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
   padding: 6px 12px;
   &:hover,
   :focus {
-    background-color: tomato;
+    color: #ffffff;
+    background-color: #c90913;
   }
   &.active {
-    background-color: tomato;
+    color: #ffffff;
+    background-color: #c90913;
   }
 `;

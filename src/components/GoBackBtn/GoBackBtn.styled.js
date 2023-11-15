@@ -9,15 +9,17 @@ export const Container = styled.div`
 export const Button = styled.div`
   display: flex;
   align-items: center;
+  padding: 4px;
   gap: 10px;
-  border: 1px solid #000000;
-  border-radius: 15px;
+  border: 1px solid gray;
+  border-radius: 8px;
   width: 100px;
   margin: 10px 0;
   font-size: 16px;
   font-weight: 500;
+  color: gray;
   &:hover,
   :focus {
-    background-color: orange;
+    background-color: #d5ead8;
   }
 `;

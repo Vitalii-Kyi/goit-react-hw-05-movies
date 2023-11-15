@@ -9,5 +9,5 @@ export const TitleContainer = styled.div`
 export const Title = styled.h1`
   font-size: 22px;
   font-weight: 500;
-  color: tomato;
+  color: #c90913;
 `;
